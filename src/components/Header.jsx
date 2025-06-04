@@ -36,9 +36,9 @@ function Header() {
 
         {/* Right - Button (Desktop) */}
         <div className="sm:flex hidden">
-          <NavLink to="/sign">
+          <NavLink to="/project">
             <button className="border border-[#FF8126] px-4 py-2 rounded hover:bg-[#FF8126] hover:text-white transition">
-               Sign Up
+               Get started
             </button>
           </NavLink>
         </div>
@@ -67,9 +67,9 @@ function Header() {
           <NavLink to="/about" onClick={toggleMenu} className="flex items-center gap-2"><FiInfo /> About </NavLink>
           <NavLink to="/contact" onClick={toggleMenu} className="flex items-center gap-2"><FiPhone /> Contact</NavLink>
           <NavLink to="/project" onClick={toggleMenu} className="flex items-center gap-2"><FiUser /> Project </NavLink>
-          <NavLink to="/sign" onClick={toggleMenu}>
+          <NavLink to="/project" onClick={toggleMenu}>
             <button className="border border-[#FF8126] px-4 py-2 rounded mt-4">
-            Sign Up
+            All Project
             </button>
           </NavLink>
         </div>
