@@ -205,7 +205,7 @@ const Home = () => {
             to="/contact"
             className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-100"
           >
-            La Xiriir Hadda
+            La Xirir Hadda
           </Link>
         </div>
       </section>
